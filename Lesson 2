@@ -1,0 +1,5 @@
+var level = 1
+level += 1
+let text = "Lancelot reached level"
+print(text, terminator: " ")
+print(level, terminator: "!")
