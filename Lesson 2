@@ -24,3 +24,27 @@ print("Minimum value of UInt32 is  \(UInt32.min)")
 print("Maximum value of UInt32 is  \(UInt32.max)")
 print("Minimum value of UInt64 is  \(UInt64.min)")
 print("Maximum value of UInt64 is  \(UInt64.max)")
+let number1 : Int = 5
+print("Number 1 is Int and = \(number1)")
+let number2 : Float = 5.5
+print("Number 2 is FLoat and = \(number2)")
+let number3 : Double = 6.6
+print("Number 3 is Double and = \(number3)")
+
+let number4 : Int = number1 + Int(number2) + Int(number3)
+print("Number 4 is SUM of Number 1 Number 2 and Number 3 and it Int = \(number4)")
+let number5 : Float = Float(number1) + number2 + Float(number3)
+print("Number 5 is SUM of Number 1 Number 2 and Number 3 and it Float = \(number5)")
+let number6 : Double = Double(number1) + Double(number2) + number3
+print("Number 6 is SUM of Number 1 Number 2 and Number 3 and it Double = \(number6)")
+
+
+let a = number4
+let b = Int(number6)
+
+
+if b > a {
+	print("Double is bigger")
+} else {
+	print("Integer is bigger")
+}
